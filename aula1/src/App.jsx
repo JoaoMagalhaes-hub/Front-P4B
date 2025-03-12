@@ -29,7 +29,7 @@ const App = () => {
       <h2>Exercício 02</h2>
 
       <br /><br />
-      <PrecisoEstudar nomeDaTecnologia="Vue3" />
+      <PrecisoEstudar nomeDaTecnologia="TYPE, POIS SOU BURRO" />
     </div>
   )
 }
