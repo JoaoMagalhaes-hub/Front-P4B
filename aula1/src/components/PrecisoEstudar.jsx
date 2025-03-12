@@ -8,4 +8,4 @@ const PrecisoEstudar = (props) => {
   )
 }
 
-export default PrecisoEstudar
+export default PrecisoEstudar;
