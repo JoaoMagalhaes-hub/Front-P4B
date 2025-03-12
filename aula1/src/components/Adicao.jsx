@@ -8,4 +8,4 @@ const Adicao = (props) => {
   )
 }
 
-export default Adicao
+export default Adicao;
