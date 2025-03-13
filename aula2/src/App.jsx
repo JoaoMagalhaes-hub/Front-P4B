@@ -1,12 +1,15 @@
 import React from 'react'
 import RenderizandoComFuncoes from './components/RenderizandoComFuncoes'
 import RenderizaBackOuFront from './components/RenderizaBackOuFront'
+import TrabalhandoComImagens from './components/TrabalhandoComImagens'
 
-const App = () => {
+
+function App (){
   return (
     <div>
-      <RenderizandoComFuncoes/>
-      <RenderizaBackOuFront/>
+      <RenderizandoComFuncoes></RenderizandoComFuncoes>
+      <RenderizaBackOuFront></RenderizaBackOuFront>
+      <TrabalhandoComImagens></TrabalhandoComImagens>
     </div>
   )
 }

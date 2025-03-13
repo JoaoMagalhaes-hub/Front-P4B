@@ -5,7 +5,7 @@ const RenderizaBackOuFront = () => {
     function escolhaFrontOuBack(oFrontOuBack){
         if (oFrontOuBack === "Java"){
             return<h1> back  </h1>
-        } else if (oFrontOuback === "AWS") {
+        } else if (oFrontOuBack === "AWS") {
             return<b><i> Rede </i></b>
         } else if (oFrontOuBack === "React") {
             return <b> front  </b>
