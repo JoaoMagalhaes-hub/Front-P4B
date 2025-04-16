@@ -8,8 +8,6 @@ const Aluno = ({nome, email, curso}) => {
         <p> Nome: {nome}</p>
         <p> Email: {email}</p>
         <p> Curso: {curso}</p>
-        <p> Média: {media.toFixed(2)}</p>
-        <p>Status: {status}</p>
         <p> =================================== </p>
 
 
