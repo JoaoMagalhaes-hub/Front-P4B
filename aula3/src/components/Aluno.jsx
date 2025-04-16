@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Aluno = ({nome, email, curso}) => {
-  const status = media >= 7 ? 'APROVADO' : 'REPROVADO';
 
   return (
     <div >

@@ -43,7 +43,7 @@ return (
 
       <h1>Exercício 3</h1>
       {alunos.map((aluno) => (
-          <Aluno nome={aluno.nome} email={aluno.curso} curso={aluno.curso}/>
+          <Aluno nome={aluno.nome} email={aluno.email} curso={aluno.curso}/>
       ))}
 
       <br />
