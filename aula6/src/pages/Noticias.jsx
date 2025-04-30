@@ -20,6 +20,7 @@ const Noticias = () => {
           noticias.map((noticia) => (
           <li key={noticia.id}>
             <h2>{noticia.titulo}</h2>
+            <h4>{noticia.dataCriacao}</h4>
             <h3>{noticia.texto}</h3>
           </li>
           ))
