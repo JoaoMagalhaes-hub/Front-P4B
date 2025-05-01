@@ -1,12 +1,22 @@
-import React from 'react'
-import ListaDeAlunos from './components/ListaDeAlunos'
+import React from 'react';
+import ListarAlunos from './components/ListarAlunos';
 
 const App = () => {
-  return (
-    <div>
-      <ListaDeAlunos></ListaDeAlunos>
-    </div>
-  )
-}
+    return (
+        <>
+        
+            <h1>Exercício 1</h1>
+            <img src="exercicio-1.png" alt="Exercício 1 no Insomnia" />
 
-export default App
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 2 e 3</h1>
+            <ListarAlunos />
+
+        </>
+    );
+};
+
+export default App;
