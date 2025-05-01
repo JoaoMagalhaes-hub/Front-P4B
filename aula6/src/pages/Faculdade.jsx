@@ -4,7 +4,7 @@ const Faculdade = () => {
   return (
     <div>
 
-        <h3> Ola</h3>
+        <h3> Faculdade </h3>
       
     </div>
   )
