@@ -1,32 +1,41 @@
-import React from 'react'
+import React from "react";
+import styles from "./Campanha.module.css";
 
-const Campanha = () => {
+const Campanha = (props) => {
 
-    function definirMensagem(mes) {
-        if (mes ==="setembro"){
-            return "Prevenção ao suicidio"
-        } else if (mes === "outubro"){
-            return "Conscientização sobre o câncer de mama"
-        } else if (mes === "novembro"){
-            return "Conscientização e combate ao câncer de prostata"
+    function qualMes() {
+
+        let mes;
+
+        if (props.mes === "Setembro") {
+
+            return <div className={styles.setembro}><p>Prevenção ao suicídio.</p></div>
+
         }
+
+        else if (props.mes === "Outubro") {
+
+            return <div className={styles.outubro}><p>Conscientização sobre o câncer de mama.</p></div>
+
+        }
+
+        else if (props.mes === "Novembro") {
+
+            return <div className={styles.novembro}><p>Prevenção e combate ao câncer de próstata.</p></div>
+
+        }
+
+        else {
+
+            return <p>Mes não Correspondente</p>
+
+        }
+
     }
 
-    function definirCor(mes){
-        if (mes === "setembro"){
-            return StyleSheet.setembro
-    }  else if (mes === "outubro"){
-            return StyleSheet.outubro
-    } else if (mes === "novembro"){
-        return StyleSheet.novembro
-    }
-}
+    return (
+        qualMes()
+    );
+};
 
-  return (
-    <div className=>
-       Campanha
-    </div>
-  )
-}
-
-export default Campanha
+export default Campanha;

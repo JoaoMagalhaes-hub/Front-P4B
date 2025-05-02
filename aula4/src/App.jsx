@@ -1,15 +1,41 @@
-import React from 'react'
-import Exercicio1 from './components/Exercicio1'
-import Exercicio2 from './components/Exercicio2'
+import React from "react";
+import EstiloGlobal from "./components/EstiloGlobal";
+import EstiloInline from "./components/EstiloInline";
+import Campanha from "./components/Campanha";
+import FormularioDeContato from "./components/FormularioDeContato";
 
 const App = () => {
-  return (
-    <div>
-      <Exercicio1/>
-      <Exercicio2/>
-      
-    </div>
-  )
-}
+    return (
+        <>
+            <h1>Aula 4</h1>
+            <hr />
 
-export default App
+            <h1>Exercício 1</h1>
+            <EstiloGlobal />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 2</h1>
+            <EstiloInline />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 3</h1>
+            <Campanha mes={"Setembro"} />
+
+            <br />
+            <hr />
+            <br />
+
+            <h1>Exercício 4</h1>
+            <FormularioDeContato />
+
+        </>
+    );
+};
+
+export default App;
